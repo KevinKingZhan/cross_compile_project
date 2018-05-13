@@ -1,0 +1,71 @@
+libAACenc/src/metadata_main.lo: \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/metadata_main.cpp \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/metadata_main.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/include/aacenc_lib.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/machine_type.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/FDK_audio.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/genericStds.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/aacenc.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/common_fix.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_archdef.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmul.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/abs.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/clz.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmadd.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixminmax.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/cplx_mul.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/scale.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/../src/scale.cpp \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixpoint_math.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libMpegTPEnc/include/tpenc_lib.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libMpegTPEnc/include/tp_data.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_bitstream.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_bitbuffer.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSBRenc/include/sbr_encoder.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/metadata_compressor.h
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/metadata_main.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/include/aacenc_lib.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/machine_type.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/FDK_audio.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/genericStds.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/aacenc.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/common_fix.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_archdef.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmul.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/abs.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/clz.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmadd.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixminmax.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/cplx_mul.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/scale.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/../src/scale.cpp:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixpoint_math.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libMpegTPEnc/include/tpenc_lib.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libMpegTPEnc/include/tp_data.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_bitstream.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_bitbuffer.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSBRenc/include/sbr_encoder.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/metadata_compressor.h:

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavcodec
+includedir=/Users/xiaokai.zhan/book/workspace/cross_compile_project/FFmpeg-Compile-Source/build-ffmpeg/ffmpeg-2.1
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 55.39.100
+Requires: libavutil = 52.48.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec -liconv -lx264 -lfdk-aac -lm -lbz2 -lz
+Cflags: -I${includedir}

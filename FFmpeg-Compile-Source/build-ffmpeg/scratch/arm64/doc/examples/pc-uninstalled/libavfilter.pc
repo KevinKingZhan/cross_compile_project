@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavfilter
+includedir=/Users/xiaokai.zhan/book/workspace/cross_compile_project/FFmpeg-Compile-Source/build-ffmpeg/ffmpeg-2.1
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 3.90.100
+Requires: libswresample = 0.17.104, libavutil = 52.48.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavfilter -liconv -lx264 -lfdk-aac -lm -lbz2 -lz
+Cflags: -I${includedir}

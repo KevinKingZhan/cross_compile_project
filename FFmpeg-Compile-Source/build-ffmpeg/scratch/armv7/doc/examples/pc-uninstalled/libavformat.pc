@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavformat
+includedir=/Users/xiaokai.zhan/book/workspace/cross_compile_project/FFmpeg-Compile-Source/build-ffmpeg/ffmpeg-2.1
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 55.19.104
+Requires: libavcodec = 55.39.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavformat -liconv -lx264 -lfdk-aac -lm -lbz2 -lz
+Cflags: -I${includedir}

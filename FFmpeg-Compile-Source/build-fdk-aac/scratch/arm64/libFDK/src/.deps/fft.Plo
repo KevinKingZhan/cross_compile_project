@@ -1,0 +1,53 @@
+libFDK/src/fft.lo: \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/src/fft.cpp \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fft.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/common_fix.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_archdef.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/machine_type.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmul.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/abs.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/clz.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmadd.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixminmax.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/cplx_mul.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/scale.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/genericStds.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/../src/scale.cpp \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixpoint_math.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fft_rad2.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_tools_rom.h \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/FDK_audio.h
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fft.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/common_fix.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_archdef.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/machine_type.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmul.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/abs.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/clz.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixmadd.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixminmax.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/cplx_mul.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/scale.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/genericStds.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/../src/scale.cpp:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fixpoint_math.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/fft_rad2.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libFDK/include/FDK_tools_rom.h:
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libSYS/include/FDK_audio.h:

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavutil
+includedir=/Users/xiaokai.zhan/book/workspace/cross_compile_project/FFmpeg-Compile-Source/build-ffmpeg/ffmpeg-2.1
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 52.48.100
+Requires: 
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavutil -lm
+Cflags: -I${includedir}

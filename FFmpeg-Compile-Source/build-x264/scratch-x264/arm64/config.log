@@ -1,0 +1,207 @@
+x264 configure script
+Command line options: "--enable-static" "--enable-pic" "--disable-shared" "--host=aarch64-apple-darwin" "--extra-cflags=-arch" "arm64" "-mios-version-min=7.0" "--extra-asflags=-arch" "arm64" "-mios-version-min=7.0" "--extra-ldflags=-arch" "arm64" "-mios-version-min=7.0" "--prefix=/Users/xiaokai.zhan/book/workspace/cross_compile_project/FFmpeg-Compile-Source/build-x264/thin-x264/arm64"
+
+checking whether xcrun -sdk iphoneos clang works... yes
+checking whether xcrun -sdk iphoneos clang supports for( int i = 0; i < 9; i++ ); with -std=gnu99... yes
+checking whether xcrun -sdk iphoneos clang supports __asm__("cmeq v0.8h, v0.8h, #0");... yes
+checking whether gas-preprocessor.pl -arch aarch64 -- xcrun -sdk iphoneos clang supports .func test
+.endfunc... yes
+checking for pthread_create(0,0,0,0); in pthread.h... yes
+checking for return log2f(2); in math.h... yes
+checking whether defined(MAP_PRIVATE) is true... yes
+checking for sws_init_context(0,0,0); in libswscale/swscale.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99   -lswscale -lavutil   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'libswscale/swscale.h' file not found
+#include <libswscale/swscale.h>
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <libswscale/swscale.h>
+int main (void) { sws_init_context(0,0,0); return 0; }
+--------------------------------------------------
+checking for -lpostproc... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lpostproc   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: library not found for -lpostproc
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lavcodec... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lavcodec   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: library not found for -lavcodec
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lswscale... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lswscale   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: library not found for -lswscale
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lavutil... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lavutil   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: library not found for -lavutil
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lm... yes
+checking for -lz... yes
+checking for -lbz2... yes
+checking for -lpthread... yes
+checking for -lavifil32... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lavifil32   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: library not found for -lavifil32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lws2_32... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lws2_32   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: library not found for -lws2_32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for av_frame_free(0); in libavformat/avformat.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99   -L. -lavformat -lm -lz -lbz2 -lpthread   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'libavformat/avformat.h' file not found
+#include <libavformat/avformat.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <libavformat/avformat.h>
+int main (void) { av_frame_free(0); return 0; }
+--------------------------------------------------
+checking for FFMS_DestroyVideoSource(0); in ffms.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99   -lffms2   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'ffms.h' file not found
+#include <ffms.h>
+         ^~~~~~~~
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <ffms.h>
+int main (void) { FFMS_DestroyVideoSource(0); return 0; }
+--------------------------------------------------
+checking for FFMS_DestroyVideoSource(0); in ffms.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99   -lffms2 -lstdc++ -L. -lavformat -lm -lz -lbz2 -lpthread   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'ffms.h' file not found
+#include <ffms.h>
+         ^~~~~~~~
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <ffms.h>
+int main (void) { FFMS_DestroyVideoSource(0); return 0; }
+--------------------------------------------------
+checking for lsmash.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99   -llsmash   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'lsmash.h' file not found
+#include <lsmash.h>
+         ^~~~~~~~~~
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <lsmash.h>
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lz... yes
+checking for gpac/isomedia.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99  -lgpac_static -lz   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'gpac/isomedia.h' file not found
+#include <gpac/isomedia.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <gpac/isomedia.h>
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for uint32_t test_vec __attribute__ ((vector_size (16))) = {0,1,2,3}; in stdint.h... yes
+checking for stdio.h... no
+Failed commandline was:
+--------------------------------------------------
+xcrun -sdk iphoneos clang conftest.c  -Wall -I. -I$(SRCPATH) -arch arm64 -mios-version-min=7.0 -std=gnu99 -fPIC  -shared -Wl,-Bsymbolic -ldl   -arch arm64 -mios-version-min=7.0 -lm -lpthread -o conftest
+ld: unknown option: -Bsymbolic
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <stdio.h>
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -fno-tree-vectorize... yes
+checking for fseeko(stdin,0,0); in stdio.h... yes
+checking for -Wshadow... yes
+checking for -Wmaybe-uninitialized... yes
+
+platform:      AARCH64
+byte order:    little-endian
+system:        MACOSX
+cli:           yes
+libx264:       internal
+shared:        no
+static:        yes
+asm:           yes
+interlaced:    yes
+avs:           avxsynth
+lavf:          no
+ffms:          no
+mp4:           no
+gpl:           yes
+thread:        posix
+opencl:        yes
+filters:       crop select_every 
+debug:         no
+gprof:         no
+strip:         no
+PIC:           yes
+bit depth:     8
+chroma format: all

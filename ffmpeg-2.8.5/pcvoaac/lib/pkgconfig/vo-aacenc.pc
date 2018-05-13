@@ -1,0 +1,10 @@
+prefix=/Users/apple/Desktop/libs/ffmpeg/pcvoaac
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: VisualOn AAC Encoder
+Description: AAC codec library
+Version: 0.1.3
+Libs: -L${libdir} -lvo-aacenc
+Cflags: -I${includedir}

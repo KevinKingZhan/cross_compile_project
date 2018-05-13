@@ -1,0 +1,14 @@
+prefix=/Users/xiaokai.zhan/book/workspace/cross_compile_project/FFmpeg-Compile-Source/build-ffmpeg/thin/armv7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 3.90.100
+Requires: libswresample = 0.17.104, libavutil = 52.48.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavfilter -liconv -lx264 -lfdk-aac -lm -lbz2 -lz
+Libs.private: 
+Cflags: -I${includedir}

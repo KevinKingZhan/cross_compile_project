@@ -1,0 +1,5 @@
+libAACenc/src/aacenc_hcr.lo: \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/aacenc_hcr.cpp \
+  /Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/aacenc_hcr.h
+
+/Users/apple/Desktop/iOS_live_publisher/FFmpeg-Compile-Source/build-fdk-aac/fdk-aac-0.1.4/libAACenc/src/aacenc_hcr.h:
