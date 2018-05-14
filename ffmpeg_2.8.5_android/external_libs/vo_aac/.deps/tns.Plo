@@ -1,0 +1,54 @@
+tns.lo: aacenc/src/tns.c aacenc/basic_op/basic_op.h \
+ aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+ aacenc/basic_op/oper_32b.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ aacenc/inc/aac_rom.h aacenc/inc/config.h aacenc/inc/psy_const.h \
+ aacenc/inc/tns_param.h aacenc/inc/tns.h aacenc/basic_op/typedef.h \
+ aacenc/inc/psy_const.h aacenc/inc/tns.h aacenc/inc/tns_param.h \
+ aacenc/inc/psy_configuration.h aacenc/basic_op/typedefs.h \
+ aacenc/inc/tns_func.h aacenc/inc/psy_configuration.h
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/oper_32b.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/assert.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/tns_param.h:
+
+aacenc/inc/tns.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/tns.h:
+
+aacenc/inc/tns_param.h:
+
+aacenc/inc/psy_configuration.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/inc/tns_func.h:
+
+aacenc/inc/psy_configuration.h:

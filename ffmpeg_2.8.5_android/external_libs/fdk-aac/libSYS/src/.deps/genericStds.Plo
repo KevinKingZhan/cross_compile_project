@@ -1,0 +1,9 @@
+libSYS/src/genericStds.lo: libSYS/src/genericStds.cpp \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ libSYS/src/linux/genericStds_linux.cpp
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+libSYS/src/linux/genericStds_linux.cpp:

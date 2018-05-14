@@ -1,0 +1,10 @@
+prefix=/Users/xiaokai.zhan/book/workspace/cross_compile_project/ffmpeg_2.8.5_android/external_libs/vo_aac/build/armv5
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include
+
+Name: VisualOn AAC Encoder
+Description: AAC codec library
+Version: 0.1.3
+Libs: -L${libdir} -lvo-aacenc
+Cflags: -I${includedir}

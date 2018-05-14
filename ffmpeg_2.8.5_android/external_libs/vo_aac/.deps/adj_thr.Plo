@@ -1,0 +1,72 @@
+adj_thr.lo: aacenc/src/adj_thr.c \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/string.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/malloc.h \
+ aacenc/basic_op/basic_op.h aacenc/basic_op/typedef.h \
+ aacenc/basic_op/typedefs.h aacenc/basic_op/oper_32b.h \
+ aacenc/inc/adj_thr_data.h aacenc/basic_op/typedef.h \
+ aacenc/inc/psy_const.h aacenc/inc/config.h aacenc/inc/line_pe.h \
+ aacenc/inc/interface.h aacenc/inc/psy_data.h aacenc/inc/block_switch.h \
+ aacenc/inc/tns.h aacenc/basic_op/typedefs.h aacenc/inc/adj_thr.h \
+ aacenc/inc/adj_thr_data.h aacenc/inc/qc_data.h aacenc/inc/dyn_bits.h \
+ aacenc/inc/bit_cnt.h aacenc/inc/bitbuffer.h aacenc/inc/qc_data.h \
+ aacenc/inc/line_pe.h
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/string.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/oper_32b.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/line_pe.h:
+
+aacenc/inc/interface.h:
+
+aacenc/inc/psy_data.h:
+
+aacenc/inc/block_switch.h:
+
+aacenc/inc/tns.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/inc/adj_thr.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/dyn_bits.h:
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/line_pe.h:

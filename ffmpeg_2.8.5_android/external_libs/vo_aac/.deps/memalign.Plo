@@ -1,0 +1,33 @@
+memalign.lo: aacenc/src/memalign.c aacenc/inc/memalign.h \
+ common/include/voMem.h common/include/voIndex.h common/include/voType.h \
+ aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h
+
+aacenc/inc/memalign.h:
+
+common/include/voMem.h:
+
+common/include/voIndex.h:
+
+common/include/voType.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/Users/xiaokai.zhan/soft/android-ndk-r10d/platforms/android-9/arch-arm/usr/include/android/api-level.h:

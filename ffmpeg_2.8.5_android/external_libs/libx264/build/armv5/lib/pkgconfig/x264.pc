@@ -1,0 +1,11 @@
+prefix=/Users/apple/changba/work/program/android/workspace/test_ffmpeg_compile/jni/songstudio/ffmpeg_2.8.5/external_libs/libx264/build/armv5
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: x264
+Description: H.264 (MPEG4 AVC) encoder library
+Version: 0.142.x
+Libs: -L${exec_prefix}/lib -lx264 -lc -lm -ldl
+Libs.private: 
+Cflags: -I${prefix}/include

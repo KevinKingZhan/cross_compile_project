@@ -1,0 +1,11 @@
+prefix=/Users/xiaokai.zhan/book/workspace/cross_compile_project/ffmpeg_2.8.5_android/external_libs/fdk-aac/build/armv7a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 0.1.4
+Libs: -L${libdir} -lfdk-aac -lm 
+Libs.private: 
+Cflags: -I${includedir}

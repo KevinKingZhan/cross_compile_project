@@ -1,0 +1,14 @@
+prefix=/Users/xiaokai.zhan/book/workspace/cross_compile_project/ffmpeg_2.8.5_android/build/armv7a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 56.60.100
+Requires: libavutil >= 54.31.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -lx264 -lvo-aacenc -lmp3lame -lfdk-aac -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/Users/apple/changba/work/program/android/workspace/test_ffmpeg_compile/jni/songstudio/ffmpeg_2.8.5/external_libs/fdk-aac/build/armv5
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 0.1.4
+Libs: -L${libdir} -lfdk-aac -lm 
+Libs.private: 
+Cflags: -I${includedir}
